@@ -14,6 +14,7 @@
 .title {
     color:var(--text-orange);
     text-align: center;
+    font-size: 40px;
 
 }
 
@@ -26,8 +27,13 @@
 .section-choice {
     padding-top: 60px;
     background-color: white;
-    border-radius: 170px;
+    border-top-right-radius: 170px;
+    border-top-left-radius: 170px;
     position: absolute;
-    top: 98%;
+    top: 99%;
     left: 12%;
+}
+
+.section-tours{
+    
 }
