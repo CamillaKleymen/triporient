@@ -1,0 +1,10 @@
+:root {
+    --text-black: black;
+}   
+
+
+/* header */
+
+.nav-item .dropdown > a {
+    color: var(--text-black);
+}
