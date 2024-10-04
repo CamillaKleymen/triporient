@@ -1,10 +1,33 @@
 :root {
     --text-black: black;
-}   
+    --text-orange: #FF6000;
+}
 
 
 /* header */
 
 .nav-item .dropdown > a {
     color: var(--text-black);
+}
+
+
+.title {
+    color:var(--text-orange);
+    text-align: center;
+
+}
+
+/* .subtitle {
+    margin-top: 15px;
+    margin-bottom: 15px;
+} */
+
+
+.section-choice {
+    padding-top: 60px;
+    background-color: white;
+    border-radius: 170px;
+    position: absolute;
+    top: 98%;
+    left: 12%;
 }
