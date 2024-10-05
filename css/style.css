@@ -1,6 +1,7 @@
 :root {
     --text-black: black;
     --text-orange: #FF6000;
+    --stars:#FFA800;
 }
 
 
@@ -18,11 +19,8 @@
 
 }
 
-/* .subtitle {
-    margin-top: 15px;
-    margin-bottom: 15px;
-} */
 
+/* section choice */
 
 .section-choice {
     padding-top: 60px;
@@ -40,40 +38,48 @@
 }
 
 
-/* css для слайдера */
+/* sections tours*/
 
-.content {
-    margin: auto;
-    padding: 30px;
-    width: 100%;
-    max-width: 600px;
-    box-sizing: border-box;
-  }
-  h3 {
-    background: #fff;
-    color: #3498db;
-    font-size: 36px;
-    line-height: 100px;
-    margin: 10px;
-    padding: 2%;
+.rating .bi-star-fill {
+    color:var(--stars);
+}
+
+.rating .bi-star {
+    color:var(--stars);
+}
+
+.button {
+    background-color:#FF6000;
+    color:white !important;
+    padding: 5px;
+    width: 210px;
+    border-radius: 55px;
+}
+
+.btn:hover {
+    color: white;
+}
+
+/* our services */
+.services {
+    border-radius: 20px;
     position: relative;
-    text-align: center;
-  }
-  ​
-
-
-.multiple-items img {
-    max-width: 100%;
-    height: auto;
-}
-.multiple-items h4 {
-    font-size: 24px;
-    color: var(--text-orange);
-    margin-top: 10px;
-}
-.multiple-items p {
-    color: #666;
+    /* max-width: 100%; */
+   
 }
 
+.photo-text{
+    position: relative;
+    margin-bottom: 30px;
+}
 
-
+.description {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+    z-index: 2;
+}
