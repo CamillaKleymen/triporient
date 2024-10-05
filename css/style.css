@@ -60,3 +60,20 @@
     text-align: center;
   }
   ​
+
+
+.multiple-items img {
+    max-width: 100%;
+    height: auto;
+}
+.multiple-items h4 {
+    font-size: 24px;
+    color: var(--text-orange);
+    margin-top: 10px;
+}
+.multiple-items p {
+    color: #666;
+}
+
+
+
