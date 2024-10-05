@@ -28,8 +28,9 @@
     border-top-right-radius: 170px;
     border-top-left-radius: 170px;
     position: absolute;
-    top: 99%;
-    left: 12%;
+    top: 1200px;
+    /* left: 12%; */
+    width: 100%;
 }
 
 .section-tours{
@@ -50,21 +51,32 @@
 
 .button {
     background-color:#FF6000;
-    color:white !important;
+    color:white;
     padding: 5px;
     width: 210px;
     border-radius: 55px;
+    
 }
 
-.btn:hover {
-    color: white;
+.paginator {
+    align-items:end;
+    justify-content: end;
+    margin-bottom: 20px;
 }
+
+.paginator > button {
+    color: var(--text-orange);
+    background-color: #FFF;
+    padding: 10px 20px;
+    border:none;
+}
+
 
 /* our services */
 .services {
     border-radius: 20px;
     position: relative;
-    /* max-width: 100%; */
+    max-width: 100%; 
    
 }
 
@@ -83,3 +95,27 @@
     margin: 0;
     z-index: 2;
 }
+
+.country {
+    position: absolute;
+    bottom: 70px;
+    left: 35%;
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+    z-index: 2;
+}
+
+.btn-country {
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    color: white;
+    background-color:#FF6000;
+    font-size: 28px;
+    font-weight: 500;
+    margin: 0;
+    z-index: 2;
+}
+
