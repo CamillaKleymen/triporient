@@ -133,7 +133,7 @@
   border-radius: 25px;
   padding: 5px 15px;
   font-size: 14px;
-  display: block; 
+  display: block;
   margin: 0 auto;
 }
 
@@ -142,8 +142,11 @@
   font-size: 20px;
 }
 
+
+
 /* footer */
-/* Footer */
+
+
 footer {
   padding-top: 40px;
   padding-bottom: 40px;
@@ -165,10 +168,9 @@ footer {
 }
 
 .footer-services > p > a {
-  color: inherit; 
-  text-decoration: none; 
+  color: inherit;
+  text-decoration: none;
 }
-
 
 .footer-services li {
   font-size: 14px;
@@ -190,3 +192,106 @@ footer {
   max-width: 100%;
   height: auto;
 }
+
+@media (max-width: 768px) {
+  
+  /* .navbar-toggler {
+      display: block;
+  }
+
+  .navbar-collapse {
+      display: none;
+  }
+
+  .navbar-toggler[aria-expanded="true"] + .navbar-collapse {
+      display: block;
+  } */
+
+  
+  .section-choice, .section-tours, .section-testimonials, .section-services {
+      padding: 20px;
+      text-align: center;
+  }
+
+  .section-tours .tour-card {
+      display: block;
+      margin-bottom: 20px;
+  }
+
+  .section-tours .tour-content, .section-tours .tour-image {
+      width: 100%;
+  }
+
+  /* Пагинация */
+  .paginator {
+      justify-content: center;
+      margin-bottom: 20px;
+  }
+
+  
+  .button, .paginator > button {
+      width: 100%;
+      margin-bottom: 10px;
+  }
+}
+@media (max-width: 768px) {
+  
+  .section-choice {
+      padding-top: 20px;
+      padding-bottom: 30px; 
+      position: relative; 
+      top: 0; 
+      width: 100%;
+      z-index: 1;
+  }
+
+  
+  .section-tours {
+      margin-top: 20px; 
+      padding-top: 20px;
+      position: relative; 
+      z-index: 0;
+      width: 100%;
+  }
+}
+
+/* Для мобильных устройств */
+/* @media (max-width: 768px) {
+  .navbar-toggler {
+      display: block; 
+      background-color: transparent;
+      border: none;
+      font-size: 28px;
+      cursor: pointer;
+  }
+
+  .navbar-collapse {
+      display: none; 
+      flex-direction: column;
+      background-color: #fff;
+      padding: 10px;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+  }
+
+  .navbar-collapse.show {
+      display: flex; 
+  }
+
+  .navbar-nav li {
+      margin: 10px 0;
+  }
+
+  .navbar-nav a {
+      text-decoration: none;
+      font-size: 18px;
+      color: #333;
+  }
+} */
+
+
+
+
